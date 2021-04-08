@@ -1,5 +1,6 @@
-### mouse driver on centos
-### how to run?
+### - Mouse kernel driver on Centos7
+	alread run successfully test on Centos7
+### - How to run?
 
 1. `make`
 2. `sudo insmod mousekernel.ko`
@@ -19,13 +20,13 @@
 		-"w" for right click down
 		-"W" for right click Up
 		ex: echo "i udrrl" > mousek
-	* echo "x [...]" > /dev/mousekernel:	moving the mouse following the X axios
-		ex: echo "x 250" > mousek
-	* echo "y [...]" > /dev/mousekernel:	moving the mouse following the Y axios
-		ex: echo "y 50" > mousek
-	* echo "l" > /dev/mousekernel:	handling the left click of the mouse device
-		ex: echo "ll" > mousek, echo "l" > mousek
-	* echo "r" > /dev/mousekernel:	handling the right click of the mouse device
-		ex: echo "r" > mousek
-
+	* echo "x [...]" > /dev/mousekernel:	moving the mouse following the X axios<br/>
+		ex: `echo "x 250" > mousek`
+	* echo "y [...]" > /dev/mousekernel:	moving the mouse following the Y axios<br/>
+		ex: `echo "y 50" > mousek`
+	* echo "l" > /dev/mousekernel:	handling the left click of the mouse device<br/>
+		ex: `echo "ll" > mousek` or `echo "l" > mousek`
+	* echo "r" > /dev/mousekernel:	handling the right click of the mouse device<br/>
+	
+***
 ### More details: [mouse_driver](https://github.com/kushsharma/mouse-driver)
