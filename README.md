@@ -28,18 +28,20 @@
 		ex: `echo "ll" > mousek` or `echo "l" > mousek`
 	* echo "r" > /dev/mousekernel:	handling the right click of the mouse device<br/>
 <br/>
-### More details: [fake_mouse_driver](https://github.com/kushsharma/mouse-driver)
+### More details: 
+[fake_mouse_driver](https://github.com/kushsharma/mouse-driver)
 <br/>
 ***
 # Mouse driver using C and read the data from user space
 ### - How to run?
 - Go to the directory that contains the source code.<br/>
-1. sudo mknod /dev/mouseDriver c 90 1
-2. sudo chmod a+r+w /dev/mouseDriver
-3. make
-4. sudo insmod mouse.ko
-5. sudo ./test
-6. \[move mouse and see the result] 
+1. `sudo mknod /dev/mouseDriver c 90 1`
+2. `sudo chmod a+r+w /dev/mouseDriver`
+3. `make`
+4. `sudo insmod mouse.ko`
+5. `sudo ./test`
+6. - \[move mouse and see the result] 
 <br/>
-### More details: [mouse_driver](https://github.com/sachinparyani/mouse-device-driver)
+### More details: 
+[mouse_driver](https://github.com/sachinparyani/mouse-device-driver)
 <br/>
