@@ -1,4 +1,5 @@
 # Fake mouse driver control from terminal
+
 ### - Mouse kernel driver on Centos7
 	alread run successfully test on Centos7
 ### - How to run? from `fakemouse` folder
@@ -27,13 +28,12 @@
 	* echo "l" > /dev/mousekernel:	handling the left click of the mouse device<br/>
 		ex: `echo "ll" > mousek` or `echo "l" > mousek`
 	* echo "r" > /dev/mousekernel:	handling the right click of the mouse device<br/>
-<br/>
-### More details: 
-[fake_mouse_driver](https://github.com/kushsharma/mouse-driver)
-<br/>
 ***
+<br/>
+
 # Mouse driver using C and read the data from user space
-### - How to run?
+
+### - How to run? from `mouse` folder
 - Go to the directory that contains the source code.<br/>
 1. `sudo mknod /dev/mouseDriver c 90 1`
 2. `sudo chmod a+r+w /dev/mouseDriver`
@@ -42,6 +42,9 @@
 5. `sudo ./test`
 6. - \[move mouse and see the result] 
 <br/>
+
 ### More details: 
-[mouse_driver](https://github.com/sachinparyani/mouse-device-driver)
+
+* <a href="https://github.com/kushsharma/mouse-driver">fake_mouse_driver/</a>
+* <a href="https://github.com/sachinparyani/mouse-device-driver">mouse_driver/</a>
 <br/>
