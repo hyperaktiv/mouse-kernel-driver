@@ -7,7 +7,7 @@ int main(){
 
 	char i =0;
 	int bytes, left, middle, right;
-	int fp = open("/dev/ourDev",O_RDWR);
+	int fp = open("/dev/mouseDriver",O_RDWR);
 	char buff[100];
 	printf("%s\n",buff);
 	float current = 0.5;
